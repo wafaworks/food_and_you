@@ -1,9 +1,4 @@
 food_and_you
 ============
 
-#Installation :
-
-1) git clone git@github.com:ngdo-pro/food_and_you.git  
-2) composer install  
-3) npm install  
-4) bower install  
+You can check our [wiki](https://github.com/ngdo-pro/food_and_you/wiki) to find more informations !
