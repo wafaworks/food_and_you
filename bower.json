@@ -1,0 +1,24 @@
+{
+  "name": "food_and_you",
+  "description": "Website for a startup named Food&You",
+  "main": "index.js",
+  "authors": [
+    "Nicolas Gomes de Oliveira <ngdo27@gmail.com>",
+    "Christian Jecko <jecko.christian@gmail.com>",
+    "Wafa Adjeroudi <wafa.adj@gmail.com>",
+    "Kévin Javazzo <k.javazzo@gmail.com>",
+    "Damien Beauseigneur <dbeauseigneur@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ngdo-pro/food_and_you",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
