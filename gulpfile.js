@@ -26,7 +26,8 @@ var paths = {
     dist: {
         js: './web/assets/js',
         css: './web/assets/css',
-        fonts: './web/assets/fonts'
+        fonts: './web/assets/fonts',
+        assets: './web/assets'
     }
 };
 
@@ -87,7 +88,7 @@ gulp.task('watch', function(){
     gulp.watch([paths.sass], ['sass'])
 });
 
-//the "clean" task delete the /web/assets/css and /web/assets/js repertories
+//the "clean" task delete the /web/assets directory
 gulp.task('clean', function(){
-    return gulp.src([paths.dist.js, paths.dist.css], {read: false}).pipe(clean());
+    return gulp.src([paths.dist.assets], {read: false}).pipe(clean());
 });
