@@ -78,7 +78,7 @@ gulp.task('sass', function(){
         .pipe(gulp.dest(paths.dist.css))
 });
 
-//
+//the "src" task regroup all the sources (made by us) tasks
 gulp.task('src', ['js', 'sass'], function(){
 
 });
